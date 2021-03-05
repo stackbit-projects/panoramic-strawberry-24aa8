@@ -31,7 +31,7 @@ feature:
     - name: Cloud Support
       icon: ti-cloud-up
       content: Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil
-    - name: lorem-ipsum
+    - name: Hey you
       icon: lorem-ipsum
       content: lorem-ipsum
 service:
