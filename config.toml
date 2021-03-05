@@ -1,0 +1,144 @@
+baseURL = ""
+title = "Bigspring Hugo"
+theme = "bigspring"
+paginate = "3"
+summaryLength = "15"
+disqusShortname = ""
+googleAnalytics = ""
+themesDir = "themes"
+publishDir = "public"
+
+[markup.goldmark.renderer]
+unsafe = true
+
+[params]
+logo = "images/logo.png"
+logo_width = "200px"
+description = "This is meta description"
+author = "Themefisher"
+contact_form_action = "#"
+
+[[params.plugins.css]]
+link = "plugins/bootstrap/bootstrap.min.css"
+
+[[params.plugins.css]]
+link = "plugins/themify-icons/themify-icons.css"
+
+[[params.plugins.css]]
+link = "plugins/slick/slick.css"
+
+[[params.plugins.js]]
+link = "plugins/jQuery/jquery.min.js"
+
+[[params.plugins.js]]
+link = "plugins/bootstrap/bootstrap.min.js"
+
+[[params.plugins.js]]
+link = "plugins/slick/slick.min.js"
+
+  [params.preloader]
+  enable = false
+  preloader = ""
+
+  [params.navigation_button]
+  enable = true
+  label = "Get Started"
+  link = "contact"
+
+  [[params.social]]
+  title = "facebook"
+  icon = "ti-facebook"
+  link = "#"
+
+  [[params.social]]
+  title = "twitter"
+  icon = "ti-twitter-alt"
+  link = "#"
+
+  [[params.social]]
+  title = "skype"
+  icon = "ti-skype"
+  link = "#"
+
+  [[params.social]]
+  title = "linkedin"
+  icon = "ti-linkedin"
+  link = "#"
+
+[[menu.main]]
+name = "Blog"
+url = "blog"
+weight = 1
+
+[[menu.main]]
+name = "Pricing"
+url = "pricing"
+weight = 2
+
+[[menu.main]]
+name = "Contact"
+url = "contact"
+weight = 3
+
+[[menu.main]]
+name = "FAQ"
+url = "faq"
+weight = 4
+
+[[menu.footer_left]]
+name = "About Us"
+url = "#"
+
+[[menu.footer_left]]
+name = "Quick Start"
+url = "#"
+
+[[menu.footer_left]]
+name = "Pricing"
+url = "pricing"
+
+[[menu.footer_middle]]
+name = "Pricing"
+url = "pricing"
+
+[[menu.footer_middle]]
+name = "Platform"
+url = "#"
+
+[[menu.footer_middle]]
+name = "Features"
+url = "#"
+
+[[menu.footer_right]]
+name = "Privacy Policy"
+url = "privacy-policy"
+
+[[menu.footer_right]]
+name = "Terms & Conditions"
+url = "terms-conditions"
+
+[[menu.footer_right]]
+name = "FAQ"
+url = "faq"
+
+[languages.en]
+languageName = "En"
+title = "Bigspring Hugo"
+contentDir = "content/english"
+weight = 1
+footer_menu_left = "Company"
+footer_menu_middle = "Product"
+footer_menu_right = "Support"
+footer_content = "Lorem ipsum dolor sit amet, consectetur elit. Consjat tristique eget amet, tempus eu at cttur."
+copyright = "Design By [Themefisher](https://themefisher.com/) Develop By [Gethugothemes](https://gethugothemes.com/)"
+
+[languages.de]
+languageName = "De"
+title = "Bigspring Hugo"
+contentDir = "content/deutsch"
+weight = 2
+footer_menu_left = "Firma"
+footer_menu_middle = "Produkte"
+footer_menu_right = "Support"
+footer_content = "Lorem ipsum dolor sit amet, consectetur elit. Consjat tristique eget amet, tempus eu at cttur."
+copyright = "Design von [Themefisher](https://themefisher.com/) Entwickelt von [Gethugothemes](https://gethugothemes.com/)"
